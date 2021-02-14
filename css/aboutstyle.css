@@ -1,0 +1,254 @@
+
+::-webkit-input-placeholder {
+  color: #777777;
+  font-weight: 300;
+}
+
+body {
+  color: #777;
+  font-family: "Raleway", sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1.625em;
+  position: relative;
+}
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
+a,
+a:focus,
+a:hover {
+  text-decoration: none;
+  outline: 0;
+}
+
+
+h1,
+.h1 {
+  font-size: 36px;
+}
+
+h3,
+.h3 {
+  font-size: 24px;
+}
+
+
+td,
+th {
+  border-radius: 0px;
+}
+
+
+
+.text-white {
+  color: #fff;
+}
+
+.relative {
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+h1 {
+  font-size: 36px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+
+h6 {
+  font-size: 14px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  line-height: 1.5em;
+}
+
+.section-gap {
+  padding: 60px 0;
+}
+.section-title {
+  padding-bottom: 30px;
+}
+
+
+.primary-btn.squire:hover {
+  border: 1px solid #fff;
+  background: transparent;
+  color: #fff;
+}
+.overlay {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+.banner-area {
+  background-image: url(..img/banner-bg.png) ;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.banner-area .overlay-bg {
+  background-image: radial-gradient(#ae68d6, #886bef);
+}
+
+.about-video-left h6 {
+  color: #9a69e3 ;
+  font-weight: 400;
+  letter-spacing: 2px;
+  font-size: 12px;
+}
+.about-video-left h1 {
+  padding: 20px 0;
+}
+
+.about-video-left p span {
+  font-weight: 600;
+  color: #222;
+}
+
+.about-video-right {
+  background: url(../img/video-bg.jpg) no-repeat center;
+  background-size: cover;
+  height: 330px;
+}
+.about-video-right .overlay-bg {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+
+.link-nav {
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+
+.about-content {
+  margin-top: 138px;
+  padding: 50px 0px;
+  text-align: center;
+}
+
+.about-content h1 {
+  font-size: 48px;
+  font-weight: 600;
+}
+.about-content a {
+  color: #fff;
+  font-weight: 300;
+  font-size: 14px;
+}
+.about-content .lnr {
+  margin: 0px 10px;
+  font-weight: 600;
+}
+
+
+/* 
+---------------------------------------------
+team
+--------------------------------------------- 
+*/
+.team-item {
+  background: #fff;
+  box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.10);
+  border-radius: 20px;
+  position: relative;
+  margin-bottom: 30px;
+  padding-bottom: 25px;
+}
+
+.team-item i {
+  display: block;
+  margin-left: 25px;
+  margin-top: 25px;
+  font-size: 30px;
+  color: #4E47DE;
+  text-align: center;
+}
+
+.team-item .user-image {
+  width: 60px;
+  height: 60px;
+  overflow: hidden;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  border-radius: 100px;
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  margin-left: 25px;
+  float: left;
+}
+
+.team-item .team-content {
+  text-align: left;
+  overflow: hidden;
+}
+
+.team-item .team-content .team-info {
+  float: left;
+  margin-left: 20px;
+  margin-top: 8px;
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
+.team-item .team-content .team-info .user-name {
+  display: block;
+  font-weight: 400;
+  font-size: 17px;
+  color: #1e1e1e;
+  letter-spacing: 0.25px;
+  margin-bottom: 5px;
+}
+
+.team-item .team-content .team-info span {
+  display: block;
+  font-weight: 400;
+  font-size: 15px;
+  color: #ff589e;
+  letter-spacing: 0.25px;
+}
+
+.team-item .team-content p {
+  margin-top: 25px;
+  padding-left: 25px;
+  padding-right: 25px;
+  margin-bottom: 25px;
+  font-weight: 400;
+  font-size: 15px;
+  color: #777;
+  letter-spacing: 0.6px;
+  line-height: 26px;
+}
